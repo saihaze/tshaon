@@ -1,0 +1,10 @@
+[package]
+name = "tshaon-wayland"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.63"
+wayland-backend = { version = "0.3.7", features = ["client_system"] }
+wayland-client = "0.31.6"
+wayland-protocols = { version = "0.32.4", features = ["client", "staging"] }
